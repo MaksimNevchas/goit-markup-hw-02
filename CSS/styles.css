@@ -21,9 +21,7 @@ body {
 .site-navig a {
   color: #212121;
 }
-.site-navig a:hover {
-  color: #2196f3;
-}
+.site-navig a:hover,
 .site-navig a:focus {
   color: #2196f3;
 }
@@ -33,10 +31,13 @@ body {
 .contact-navig a {
   color: #757575;
 }
-.contact-navig a:hover {
-  color: #2196f3;
-}
+.contact-navig a:hover,
 .contact-navig a:focus {
   color: #2196f3;
 }
+
 /* Герой */
+.hero-title,
+.hero-button {
+  color: #ffffff;
+}
