@@ -1,0 +1,42 @@
+body {
+  color: #757575;
+  background-color: #ffffff;
+}
+/* колір заголовків #212121 */
+/* колір абзаців #757575 */
+/* колір акценту #2196F3 */
+/* колір фону героя #2F303A */
+/* заголовок героя #FFFFFF */
+
+/* Шапка */
+.web-word {
+  color: #2196f3;
+}
+.studio-word {
+  color: #212121;
+}
+.site-navig {
+  list-style: none;
+}
+.site-navig a {
+  color: #212121;
+}
+.site-navig a:hover {
+  color: #2196f3;
+}
+.site-navig a:focus {
+  color: #2196f3;
+}
+.contact-navig {
+  list-style: none;
+}
+.contact-navig a {
+  color: #757575;
+}
+.contact-navig a:hover {
+  color: #2196f3;
+}
+.contact-navig a:focus {
+  color: #2196f3;
+}
+/* Герой */
