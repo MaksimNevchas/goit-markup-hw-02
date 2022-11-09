@@ -37,7 +37,42 @@ body {
 }
 
 /* Герой */
-.hero-title,
-.hero-button {
+.hero-title {
   color: #ffffff;
+}
+/* Основна частина */
+
+/* Наші переваги */
+.advantages-title {
+  color: #212121;
+}
+/* Напрямки нашої діяльності */
+.activity-title {
+  color: #212121;
+}
+/* Наші співробітники */
+.team-title {
+  color: #212121;
+}
+.team-member-name {
+  color: #212121;
+}
+/* "Підвал" */
+.studio-word-white {
+  color: #ffffff;
+}
+.post-addres {
+  color: #ffffff;
+}
+.contact-navig-foot a {
+  color: #ffffff;
+}
+.contact-navig-foot a:hover,
+.contact-navig-foot a:focus {
+  color: #2196f3;
+}
+/* Кнопка замовлення */
+.servis-order {
+  color: #ffffff;
+  background-color: #2196f3;
 }
