@@ -16,6 +16,9 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
+a {
+  text-decoration: none;
+}
 /* Шапка */
 .web-word {
   font-family: "Raleway";
@@ -77,17 +80,18 @@ body {
 }
 /* Кнопка замовлення */
 .service-order {
-  color: #ffffff;
+  color: var(--primary-white-color);
   background-color: #2196f3;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.9;
   letter-spacing: 0.06em;
 }
 
-.service-order :hover,
-.service-order :focus {
+.service-order:hover,
+.service-order:focus {
+  color: var(--title-color);
   background-color: #757575;
 }
 /* Основна частина */
@@ -114,6 +118,9 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+.activity-list {
+  list-style: none;
 }
 /* Наші співробітники */
 .team-list {
@@ -167,11 +174,29 @@ body {
 }
 
 .portfolio-navig-btn {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--title-color);
+  background-color: #f5f4fa;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
-.portfolio-navig-btn :hover,
-.portfolio-navig-btn :focus {
-  background-color: #757575;
+.portfolio-navig-btn:hover,
+.portfolio-navig-btn:focus {
+  background-color: #2196f3;
+}
+.porfolio-list {
+  list-style: none;
+}
+.portfolio-item {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.9;
 }
